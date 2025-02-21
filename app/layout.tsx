@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   authors: [
     {
       name: "Adharsh",
-      url: "https://github.com/lordgamingyt",
+      url: "https://github.com/adharshgamingyt",
     },
   ],
 };
@@ -44,6 +44,5 @@ export default function RootLayout({
         {children}
       </body>
     </html>
-    
   );
 }
