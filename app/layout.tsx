@@ -5,6 +5,7 @@ import NextTopLoader from "nextjs-toploader";
 import type { Metadata } from "next";
 import "./globals.css";
 import { siteConfig } from "@/config/siteconfig";
+import { Toaster } from "@/components/ui/sonner";
 
 const poppins = Poppins({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
@@ -42,6 +43,8 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${ubuntu.variable} ${poppins.variable} antialiased`}>
         {children}
+        <Toaster />
+        <NextTopLoader />
       </body>
     </html>
   );

@@ -6,6 +6,6 @@ export const UrlSchema = z.object({
       message: "Invalid URL",
     })
     .url({
-      message: "The text must be a URL",
+      message: "Enter a valid URL with http / https",
     }),
 });
